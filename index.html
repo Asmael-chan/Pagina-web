@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW M3 GTR E46 - La Leyenda del Asfalto</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(to right, #003366, #cccccc);
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgba(0, 51, 102, 0.9);
+            padding: 20px;
+            font-size: 1.8em;
+            text-transform: uppercase;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+        .title-image {
+            width: 60%;
+            max-width: 500px;
+            display: block;
+            margin: 10px auto;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.3em;
+        }
+        section {
+            padding: 25px;
+            margin: 25px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            text-align: left;
+        }
+        .car-image {
+            width: 80%;
+            max-width: 700px;
+            border-radius: 10px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .gallery img:active {
+            transform: scale(1.5);
+        }
+        footer {
+            background: rgba(0, 51, 102, 0.9);
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BMW M3 GTR E46</h1>
+        <img src="NFSMWlogo.png"
+        <p>.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#especificaciones">Especificaciones</a></li>
+            <li><a href="#rendimiento">Rendimiento</a></li>
+            <li><a href="#modificaciones">Modificaciones</a></li>
+            <li><a href="#galeria">Galería</a></li>
+        </ul>
+    </nav>
+    <section id="historia">
+        <h2>Historia del BMW M3 GTR E46</h2>
+        <p>El BMW M3 GTR E46 debutó en el 2001 en la American Le Mans Series. Equipado con un motor V8 de 4.0 litros, dominó las pistas antes de ser prohibido debido a cambios en las regulaciones.</p>
+        <img src="bmw_m3_gtr.jpg" alt="BMW M3 GTR E46" class="car-image">
+    </section>
+    <section id="especificaciones">
+        <h2>Especificaciones Técnicas</h2>
+        <ul>
+            <li>Motor: 4.0L V8 P60B40</li>
+            <li>Potencia: 493 HP</li>
+            <li>Transmisión: Secuencial de 6 velocidades</li>
+            <li>0-100 km/h: 3.4 segundos</li>
+            <li>Velocidad Máxima: 330 km/h</li>
+        </ul>
+    </section>
+    <section id="rendimiento">
+        <h2>Rendimiento y Tecnología</h2>
+        <p>Con un diseño aerodinámico optimizado, el M3 GTR contaba con un chasis de fibra de carbono, suspensión reforzada y frenos de competición, ofreciendo un manejo excepcional en circuito.</p>
+    </section>
+    <section id="modificaciones">
+        <h2>Modificaciones y Tuning</h2>
+        <p>El M3 GTR ha sido objeto de modificaciones extremas por parte de los entusiastas, desde motores con turbos gemelos hasta kits aerodinámicos personalizados. En <i>Need for Speed: Most Wanted</i>, su diseño azul y plateado se convirtió en un ícono del tuning.</p>
+    </section>
+    <section id="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="gallery">
+            <img src="wp1981351.jpg" alt="BMW M3 GTR - Vista Frontal">
+            <img src="OIPo.jpeg" alt="BMW M3 GTR - Vista Lateral">
+            <img src="OIPi.jpeg" alt="BMW M3 GTR - Vista Trasera">
+            <img src="Motor.jpeg" alt="BMW M3 GTR - Motor">
+            <img src="competencia.jpg" alt="BMW M3 GTR - En Competencia">
+            <img src="modificado.jpeg" alt="BMW M3 GTR - Modificado">
+        </div>
+    </section>
+    <footer>
+        <p>Diseñado con pasión para los amantes de la velocidad | © 2025</p>
+    </footer>
+</body>
+</html>
